@@ -1,32 +1,30 @@
-FaceVision — Real-time Face Recognition
-FaceVision is a real-time face recognition system using ArcFace for face embeddings and YOLO for face detection.
-It includes a simple PyQt interface and a custom face database.
+# FaceVision — Real-time Face Recognition  
+FaceVision is a real-time face recognition system built using powerful deep-learning models to detect and identify faces with high accuracy. The system uses ArcFace for generating precise face embeddings and YOLO for fast and reliable face detection. It includes a clean and simple PyQt interface, a custom face database, and a modular architecture that makes it easy to extend, modify, and integrate into larger applications.
 
-Features:
-Real-time face detection & recognition
+FaceVision captures live video frames, detects faces in real time, extracts a unique numerical embedding for each detected face, and compares these embeddings with stored data in the local database. This enables the system to identify individuals quickly and accurately. The Add-Person workflow allows users to register new identities by capturing a face, generating its embedding, and saving it for future recognition. This makes FaceVision suitable for attendance systems, access control, smart home applications, and academic or industrial research projects.
 
-ArcFace embeddings
+The user interface is designed to be simple and intuitive. Users can start the camera, stop it, add new individuals, and view recognition results instantly. The main display area shows the live camera feed, while the control buttons allow easy interaction with the system. The modular design of the codebase allows developers to replace models, adjust thresholds, add new features, or integrate cloud-based storage solutions without difficulty.
 
-YOLO face detection
+FaceVision is also an educational resource for those interested in computer vision and machine learning. It demonstrates how face detection, embedding generation, similarity comparison, and graphical interface design can be combined to create a functional and efficient real-time recognition system. The project structure is organized clearly to help developers understand and extend the system easily.
 
-Add-person database
+Features:  
+- Real-time face detection & recognition  
+- ArcFace embeddings for high-precision identity representation  
+- YOLO-based face detection  
+- Add-person database for registering new identities  
+- PyQt user interface  
+- Modular and extendable architecture  
 
-PyQt UI
-
-Project Structure:
+Project Structure:  
 faces/  
 models/  
 models/models/  
 main.py  
 ui_facevision.py  
 facevision.ui  
-icon.ico
+icon.ico  
 
-Run:
+Run:  
 python main.py
 
-
-
-FaceVision — سیستم تشخیص چهره در لحظه
-این پروژه یک سامانه‌ی تشخیص چهره‌ی سریع و دقیق است که توانایی شناسایی چهره‌ها در تصویر و ویدئو را دارد. این سامانه دارای رابط کاربری ساده و یک پایگاه داده‌ی قابل مدیریت برای ذخیره‌ی چهره‌ی افراد است و برای استفاده در برنامه‌های شناسایی چهره طراحی شده.
-
+این سامانه یک سیستم تشخیص چهره‌ی لحظه‌ای مبتنی بر هوش مصنوعی است که توانایی شناسایی افراد را در تصویر و ویدئو دارد. رابط کاربری ساده‌ای برای مدیریت دوربین، افزودن افراد جدید و مشاهده‌ی نتیجه‌ی تشخیص ارائه می‌دهد و به‌دلیل سرعت بالا و دقت مناسب، برای استفاده در کاربردهای عملی و محیط‌های واقعی بسیار مناسب است.
