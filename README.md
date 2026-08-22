@@ -1,5 +1,5 @@
 # FaceVision — Real-time Face Recognition  
-![Screenshot](image.png)
+![Screenshot](SC2.png)
 
 FaceVision is a real-time face recognition system built using powerful deep-learning models to detect and identify faces with high accuracy. The system uses ArcFace for generating precise face embeddings and YOLO for fast and reliable face detection. It includes a clean and simple PyQt interface, a custom face database, and a modular architecture that makes it easy to extend, modify, and integrate into larger applications.
 
